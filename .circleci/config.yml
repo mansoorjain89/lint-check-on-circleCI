@@ -13,7 +13,13 @@ jobs:
       - python/save-cache
       - run:
           command: make install
-          name: Run install command
+          name: Run installs
       - run:
           command: make lint
-          name: Run lint
+          name: Run lints
+          
+
+workflows:
+  main:
+    jobs:
+      - build-and-test
