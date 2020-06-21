@@ -1,7 +1,8 @@
-# learn-ci
-Mini project to learn CI
+# lint-check-on-circleCI
 
-# Introduction:
+A simple "Hello World" application developed on python and integrated with circleCI tool. This tool actively scans for commits in this repo and lints the python files for any syntatical errors to stop integrating bad codes. 
+
+# About circleCI:
 
 CircleCI is a tool that defines an automated testing environment; getting a CircleCI badge that reads "Passed" on a repository indicates that the project code has passed all lint tests. 
 
